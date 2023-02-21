@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #b9b9b9;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a span {
+    color: #64aa32;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #b9b9b9;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: #64aa32;
+}
+
+/* HOME */
+
+.home {
+    display: flex;
+    background: url("./images/header.jpg") no-repeat center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .animatedText2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: #64aa32;
+}
+
+/* ABOUT-US*/
+.aboutUs {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background: #3d3d3d;
+    height: auto;
+}
+
+.descriptionText {
+    text-align: center;
+    padding: 25px;
+    color: #b9b9b9;
+}
+
+.aboutUs .plat-content .card {
+    width: calc(33% - 20px);
+    background: #b9b9b9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+.aboutUs .plat-content .card2 {
+    width: calc(33% - 20px);
+    background: #64aa32;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+.aboutUs .plat-content .card3 {
+    width: calc(33% - 20px);
+    background: #b9b9b9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.aboutUs .plat-content .card .box,
+.aboutUs .plat-content .card2 .box,
+.aboutUs .plat-content .card3 .box {
+    transition: all 0.3s ease;
+}
+
+.aboutUs .plat-content .card:hover .box,
+.aboutUs .plat-content .card2:hover .box2,
+.aboutUs .plat-content .card3:hover .box3 {
+    transform: scale(1.05);
+}
+
+.aboutUs .plat-content .card:hover {
+    background: #64aa32;
+}
+
+.aboutUs .plat-content .card2:hover {
+    background: #b9b9b9;
+}
+
+.aboutUs .plat-content .card3:hover {
+    background: #64aa32;
+}
+
+.aboutUs .plat-content .card i,
+.aboutUs .plat-content .card2 i,
+.aboutUs .plat-content .card3 i {
+    font-size: 50px;
+    color: white;
+}
+
+.aboutUs .plat-content .card .text,
+.aboutUs .plat-content .card2 .text,
+.aboutUs .plat-content .card3 .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.aboutUs .plat-content .card i:hover,
+.aboutUs .plat-content .card3 i:hover {
+    color: #b9b9b9;
+}
+
+.aboutUs .plat-content .card2 i:hover {
+    color: #64aa32;
+}
+
+/* SECTIONS */
+.aboutUs .plat-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 100px 0;
+}
+
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* CONTACT */
+
+.contact {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background: #3a3a3a;
+    height: auto;
+}
+
+.title {
+    color: white;
+}
+
+.map {
+    width: 100%;
+    height: 600px;
+}
+
+.descriptionText {
+    text-align: center;
+    padding: 25px;
+    color: #b9b9b9;
+}
+
+.contact .plat-content .card {
+    width: calc(33% - 20px);
+    background: #b9b9b9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+.contact .plat-content .card2 {
+    width: calc(33% - 20px);
+    background: #64aa32;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+.contact .plat-content .card3 {
+    width: calc(33% - 20px);
+    background: #b9b9b9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+.contact .plat-content .card .box,
+.contact .plat-content .card2 .box,
+.contact .plat-content .card3 .box {
+    transition: all 0.3s ease;
+}
+
+.contact .plat-content .card:hover .box,
+.contact .plat-content .card2:hover .box2,
+.contact .plat-content .card3:hover .box3 {
+    transform: scale(1.05);
+}
+
+.contact .plat-content .card:hover {
+    background: #64aa32;
+}
+
+.contact .plat-content .card2:hover {
+    background: #b9b9b9;
+}
+
+.contact .plat-content .card3:hover {
+    background: #64aa32;
+}
+
+.contact .plat-content .card i,
+.contact .plat-content .card2 i,
+.contact .plat-content .card3 i {
+    font-size: 50px;
+    color: white;
+}
+
+.contact .plat-content .card .text,
+.contact .plat-content .card2 .text,
+.contact .plat-content .card3 .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.contact .plat-content {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .plat-content .card i:hover,
+.contact .plat-content .card3 i:hover {
+    color: #b9b9b9;
+}
+
+.contact .plat-content .card2 i:hover {
+    color: #64aa32;
+}
+
+/* PRIVACY */
+
+.privacy {
+    background: #343434;
+}
+
+.privacyHeader {
+    color: #b9b9b9;
+    font-family: "Ubuntu", sans-serif;
+    padding: 15px;
+}
+
+.privacyTextHeader {
+    text-align: center;
+    color: #b9b9b9;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.privacyText {
+    text-align: center;
+    color: #64aa32;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 17px;
+    padding: 25px;
+}
+
+.privacyButton {
+    text-align: center;
+    padding: 20px;
+    color: #64aa32;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 19px;
+}
+
+a:hover {
+    color: #9ccb2e;
+}
+
+/* MENU-BUTTON */
+
+.menu-btn {
+    color: #b9b9b9;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+/* FOOTER */
+
+.endFooter {
+    background: #2c2b2b;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    padding: 40px;
+}
+
+.footerText {
+    color: #b9b9b9;
+}
+
+.footerText span {
+    color: #64aa32;
+}
+
+.moreFooterText {
+    color: #b9b9b9;
+    padding: 10px;
+}
+
+.moreFooterText i:hover {
+    color: #64aa32;
+}
+
+/* MEDIA */
+
+@media (max-width: 1104px) {
+    .home .max-width {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 947px) {
+    .max-width {
+        padding: 0 50px;
+    }
+
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #3d3d3d;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .menu.active {
+        left: 0;
+    }
+
+    .navbar .menu li {
+        display: block;
+    }
+
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 947px) {
+    .aboutUs .plat-content .card,
+    .aboutUs .plat-content .card2,
+    .aboutUs .plat-content .card3,
+    .contact .plat-content .card,
+    .contact .plat-content .card2,
+    .contact .plat-content .card3 {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .home .home-content .animatedText2 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 350px) {
+    .contact .plat-content .card2 .text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+
+    .aboutUs .plat-content .card,
+    .aboutUs .plat-content .card2,
+    .aboutUs .plat-content .card3,
+    .contact .plat-content .card,
+    .contact .plat-content .card2,
+    .contact .plat-content .card3 {
+        width: 100%;
+    }
+}
